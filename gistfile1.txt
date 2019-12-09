@@ -1,0 +1,1289 @@
+Compiled with warnings.
+
+./src/pages/EmployeeData.jsx
+  Line 17:6:   React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 25:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images     jsx-a11y/alt-text
+
+./src/pages/AllEmployees.jsx
+  Line 27:19:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/pages/HomePage.jsx
+  Line 2:8:  'HelloWorld' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+^C
+~/sdg/unit-2/employee-database (master) $ 
+
+~/sdg/unit-2/employee-database (master) $ cd..
+-bash: cd..: command not found
+~/sdg/unit-2/employee-database (master) $ cd ..
+~/sdg/unit-2  $ cd ..
+~/sdg  $ mkdir unit-3
+~/sdg  $ cd unit-3
+~/sdg/unit-3  $ brew install postgressql pgcli
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+adios2              gnirehtet           mpv                 prestosql
+awsume              govc                mysql-client@5.7    pympress
+bingrep             grin                navi                rav1e
+calceph             grin-wallet         nbdime              samurai
+cargo-c             helm@2              ngt                 sentencepiece
+cartridge-cli       imgproxy            node@12             tdkjs
+cf-tool             jd                  oauth2l             terrahelp
+comby               kind                onefetch            texlab
+cups                krew                onnxruntime         tio
+devdash             liblouis            openjdk             toast
+diesel              libtorch            openjdk@11          trader
+dune                manticoresearch     openjdk@12          tweak
+dvc                 minikube            php@7.3             vale
+gimme-aws-creds     monolith            pnpm                virustotal-cli
+gmt@5               mpi4py              postgresql@11       xlearn
+==> Updated Formulae
+git ✔                                    llvm@8
+hub ✔                                    lmod
+node ✔                                   logstash
+pcre2 ✔                                  logtalk
+yarn ✔                                   macvim
+abcl                                     mame
+abcm2ps                                  mapserver
+abcmidi                                  mariadb
+abyss                                    mariadb-connector-c
+ace                                      mariadb-connector-odbc
+ack                                      mariadb@10.1
+adwaita-icon-theme                       mariadb@10.2
+alexjs                                   mariadb@10.3
+aliyun-cli                               math-comp
+amazon-ecs-cli                           maven
+ammonite-repl                            maxwell
+ampl-mp                                  mdbook
+angular-cli                              memcached
+anime-downloader                         menhir
+annie                                    mercurial
+ansible                                  mesa
+ansible-lint                             metricbeat
+ansifilter                               mgba
+ansiweather                              micronaut
+antlr4-cpp-runtime                       minica
+apache-arrow                             minizip2
+apache-arrow-glib                        mkcert
+apktool                                  mkl-dnn
+arangodb                                 mkvtoolnix
+arduino-cli                              mlt
+arm-linux-gnueabihf-binutils             mm-common
+armadillo                                mockserver
+arp-scan                                 monero
+artifactory                              monetdb
+asdf                                     mono-libgdiplus
+ask-cli                                  mosh
+assimp                                   mosquitto
+atlantis                                 mpg123
+atlassian-cli                            mpich
+audacious                                mutt
+auditbeat                                mvnvm
+aws-cdk                                  mydumper
+aws-elasticbeanstalk                     mypy
+aws-google-auth                          mysql
+aws-okta                                 mysql++
+aws-sdk-cpp                              mysql-client
+awscli                                   mysql-connector-c++
+axel                                     mysql-connector-c++@1.1
+azure-cli                                mysql@5.6
+babel                                    mytop
+babeld                                   n
+badtouch                                 nano
+balena-cli                               nats-server
+ballerina                                nco
+basex                                    ncview
+bash-completion@2                        neko
+batik                                    neo4j
+bazel                                    neomutt
+bazelisk                                 neovim
+bcftools                                 netdata
+bee                                      nethack
+berglas                                  netlify-cli
+bettercap                                newman
+bibutils                                 nghttp2
+bind                                     nginx
+binutils                                 nifi
+bit                                      nifi-registry
+bitcoin                                  nim
+bitrise                                  nlohmann-json
+black                                    nnn
+blastem                                  node-build
+blockhash                                node_exporter
+bluepill                                 nodenv
+bnd                                      nomad
+boot-clj                                 noti
+borgmatic                                notmuch
+breezy                                   now-cli
+brew-php-switcher                        nsd
+broot                                    nspr
+buildkit                                 nss
+bulk_extractor                           ntopng
+bullet                                   nuget
+bundletool                               numpy
+bup                                      nushell
+byacc                                    nut
+byteman                                  nvm
+cabal-install                            ocrmypdf
+caddy                                    octant
+caf                                      octave
+caffe                                    octomap
+calcurse                                 offlineimap
+calicoctl                                omega
+cargo-completion                         oniguruma
+carla                                    onioncat
+cash-cli                                 onscripter
+catch2                                   opa
+ccache                                   open-babel
+ceres-solver                             open-scene-graph
+certbot                                  open-zwave
+cfn-lint                                 openal-soft
+cfssl                                    openapi-generator
+chafa                                    opencascade
+chamber                                  openfortivpn
+charm-tools                              openimageio
+cheat                                    openrct2
+check                                    openvpn
+checkbashisms                            operator-sdk
+checkstyle                               orc
+chromaprint                              orc-tools
+cimg                                     ortp
+citus                                    osc
+ckan                                     osmium-tool
+clac                                     osquery
+clamav                                   pachi
+cli53                                    packer
+cling                                    paket
+cln                                      pandoc
+clojure                                  pandoc-citeproc
+cmake                                    pandoc-crossref
+cmatrix                                  pango
+cminpack                                 paps
+cointop                                  parallel
+composer                                 partio
+conan                                    passenger
+confluent-platform                       pcapplusplus
+console_bridge                           pdf2htmlex
+consul                                   pdns
+consul-template                          percona-server
+contentful-cli                           percona-toolkit
+convox                                   percona-xtrabackup
+coq                                      perl-build
+couchdb                                  petsc
+cstore_fdw                               petsc-complex
+csvq                                     pgbouncer
+curl                                     pgloader
+curl-openssl                             pgpool-ii
+cutter                                   pgroonga
+cython                                   pgrouting
+dafny                                    php
+darksky-weather                          php-code-sniffer
+dartsim                                  php-cs-fixer
+dasm                                     php@7.2
+dav1d                                    phpmyadmin
+dbhash                                   phpstan
+dcmtk                                    phpunit
+dcos-cli                                 pianobar
+deark                                    pianod
+debianutils                              picard-tools
+deno                                     pioneer
+dependency-check                         plantuml
+deployer                                 platformio
+devspace                                 pmd
+dhall                                    ponyc
+dhall-bash                               postgis
+dhall-json                               postgresql
+di                                       postgresql@10
+diamond                                  postgresql@9.4
+diffoscope                               postgresql@9.5
+dita-ot                                  postgresql@9.6
+dive                                     pqiv
+django-completion                        pre-commit
+dmtx-utils                               prettier
+dnscrypt-proxy                           procs
+dnstwist                                 proftpd
+dnsviz                                   proj
+docfx                                    proteinortho
+docker                                   protobuf
+docker-completion                        protobuf-c
+docker-compose                           pspg
+docker-compose-completion                psqlodbc
+doctl                                    pulumi
+doitlive                                 purescript
+dovecot                                  pushpin
+drafter                                  puzzles
+duck                                     py2cairo
+duplicity                                py3cairo
+dust                                     pyenv
+dxpy                                     pylint
+dynare                                   pypy
+eccodes                                  pypy3
+elasticsearch                            pyqt
+elektra                                  pyside
+elixir                                   python
+elm                                      python-yq
+embulk                                   python@2
+envconsul                                qalculate-gtk
+eprover                                  qbs
+erlang                                   qemu
+erlang@20                                qhull
+erlang@21                                qjackctl
+eslint                                   qpdf
+ethereum                                 qscintilla2
+evince                                   qstat
+exploitdb                                qt
+eye-d3                                   quantlib
+faas-cli                                 quex
+fabio                                    quickjs
+fauna-shell                              qxmpp
+fdk-aac                                  rabbitmq
+ffmpeg                                   rabbitmq-c
+ffmpeg@2.8                               rancher-cli
+ffsend                                   rargs
+fibjs                                    rbspy
+fig2dev                                  rclone
+file-roller                              rdesktop
+firebase-cli                             re2
+flake8                                   redis
+flow                                     redpen
+fluid-synth                              remind
+fluxctl                                  reminiscence
+flyway                                   repo
+fmt                                      residualvm
+fn                                       restic
+folly                                    rethinkdb
+fontforge                                rex
+fonttools                                rgbds
+fop                                      rke
+fork-cleaner                             rocksdb
+freeradius-server                        rom-tools
+freerdp                                  root
+freeswitch                               rpm
+frpc                                     rrdtool
+frps                                     ruby-build
+frugal                                   rust
+fs-uae                                   s3-backer
+fselect                                  s3ql
+futhark                                  s6
+fwup                                     salt
+fx                                       samtools
+fzf                                      sbcl
+gatsby-cli                               sbt
+gcc                                      scalapack
+gcc@6                                    scamper
+gcc@7                                    scc
+gcc@8                                    scipy
+gdal                                     scrcpy
+gdcm                                     screenfetch
+geckodriver                              scummvm
+gedit                                    scummvm-tools
+geoipupdate                              serd
+gerbv                                    serverless
+get_iplayer                              sfk
+ghq                                      sfst
+giflib                                   shadowenv
+gifski                                   shadowsocks-libev
+git-annex                                shairport-sync
+git-archive-all                          shared-mime-info
+git-cola                                 shogun
+git-delta                                simgrid
+git-quick-stats                          simple-scan
+git-revise                               simutrans
+git-town                                 singular
+gitfs                                    sip
+gitlab-runner                            siril
+gitleaks                                 sispmctl
+gitmoji                                  skaffold
+gitversion                               skafos
+gjs                                      skopeo
+glib                                     slowhttptest
+glooctl                                  smali
+glslang                                  sn0int
+gmic                                     snakemake
+gmime                                    snapcraft
+gmsh                                     solr
+gmt                                      sonobuoy
+gnumeric                                 sops
+gnunet                                   sord
+gnupg                                    sourcedocs
+gnuplot                                  sourcekitten
+gnutls                                   sparkey
+go                                       sparse
+go-bindata                               spatialindex
+go@1.12                                  sphinx-doc
+godep                                    spigot
+goffice                                  spin
+gomplate                                 sqldiff
+goofys                                   sqlite
+google-authenticator-libpam              sqlite-analyzer
+googler                                  sqlmap
+goreleaser                               squid
+goreman                                  sratom
+gource                                   sratoolkit
+gradle                                   ssh-audit
+grafana                                  ssh-copy-id
+grakn                                    ssldump
+graph-tool                               stanford-corenlp
+groonga                                  starship
+grpc                                     stella
+gst-editing-services                     stellar-core
+gst-libav                                stgit
+gst-plugins-bad                          stone-soup
+gst-plugins-base                         streamlink
+gst-plugins-good                         stress-ng
+gst-plugins-ugly                         stunnel
+gst-python                               subversion
+gst-rtsp-server                          suil
+gst-validate                             suite-sparse
+gstreamer                                sundials
+gtk-gnutella                             suricata
+gtkmm3                                   svgo
+gwyddion                                 swagger-codegen
+h3                                       swagger-codegen@2
+handbrake                                swaks
+hapi-fhir-cli                            swiftformat
+haproxy                                  swiftlint
+harfbuzz                                 sxiv
+haxe                                     syncthing
+hcloud                                   synscan
+helmfile                                 sysbench
+helmsman                                 taskell
+hfstospell                               tcsh
+highlight                                tektoncd-cli
+hledger                                  telegraf
+hlint                                    teleport
+htslib                                   temporal_tables
+hugo                                     tepl
+hydra                                    termshark
+hyperfine                                termtosvg
+hyperscan                                terraform
+hypre                                    terraformer
+i2p                                      terragrunt
+i386-elf-binutils                        terrahub
+icecream                                 tfenv
+imagemagick                              tflint
+imagemagick@6                            thrift
+imageoptim-cli                           thrift@0.9
+imapfilter                               tig
+imapsync                                 tiger-vnc
+imlib2                                   tile38
+include-what-you-use                     timewarrior
+infer                                    tintin
+influxdb                                 tmate
+inlets                                   tmux
+innotop                                  tmuxinator
+ios-webkit-debug-proxy                   tnef
+ipbt                                     todoman
+ipmiutil                                 tokei
+ipopt                                    tomcat
+ispc                                     tomcat@8
+istioctl                                 tomee-plus
+itk                                      tomee-webprofile
+jailkit                                  topgrade
+janet                                    tox
+jenkins                                  traefik
+jenkins-lts                              traefik@1
+jetty                                    transmission-cli
+jfrog-cli-go                             triton
+jhipster                                 ttyd
+jmeter                                   tunnel
+jo                                       two-lame
+joplin                                   typescript
+jruby                                    ucloud
+jsvc                                     um
+juju                                     unbound
+just                                     uncrustify
+jvgrep                                   ungit
+kafka                                    unrar
+kallisto                                 urbit
+kepubify                                 urh
+kitchen-sync                             urweb
+kops                                     uwsgi
+kotlin                                   v8
+ksh                                      vagrant-completion
+ktlint                                   vala
+kube-aws                                 vamp-plugin-sdk
+kubebuilder                              vapoursynth
+kubecfg                                  vapoursynth-imwri
+kubectx                                  vapoursynth-ocr
+kubeprod                                 vapoursynth-sub
+kubernetes-cli                           vault
+kubeseal                                 velero
+kustomize                                verilator
+kyma-cli                                 vert.x
+lazydocker                               vfuse
+lazygit                                  vice
+ledger                                   vim
+lego                                     vim@7.4
+leptonica                                vips
+lerna                                    virgil
+libcapn                                  virtuoso
+libcoap                                  vit
+libcouchbase                             vte3
+libedit                                  vtk
+libepoxy                                 vulkan-headers
+libetpan                                 wal2json
+libevhtp                                 watchexec
+libftdi                                  wget
+libgraphqlparser                         whois
+libgusb                                  wiiuse
+libheif                                  wiki
+libidn2                                  wireguard-go
+libimobiledevice                         wireguard-tools
+libmaxminddb                             wireshark
+libming                                  wolfssl
+libopenmpt                               wp-cli
+libosinfo                                wtf
+libosmium                                wtfutil
+libpeas                                  wxmaxima
+libphonenumber                           wxpython
+libplist                                 x265
+libpq                                    xa
+libpqxx                                  xapian
+libpulsar                                xcodegen
+libqalculate                             xorriso
+librdkafka                               xplanet
+librealsense                             xtensor
+libressl                                 xvid
+librsvg                                  yacas
+libsass                                  yadm
+libsodium                                yafc
+libsoup                                  yaml-cpp
+libssh                                   yapf
+libtasn1                                 yelp-tools
+libtiff                                  yle-dl
+libtommath                               youtube-dl
+libtorrent-rasterbar                     yq
+libtrace                                 z3
+libvirt                                  zabbix
+libvoikko                                zbackup
+libxlsxwriter                            zbar
+libxml2                                  zint
+libxslt                                  zita-convolver
+libzdb                                   zola
+lightgbm                                 zopfli
+lilv                                     zrepl
+llvm                                     zsh-history-substring-search
+llvm@6                                   zstd
+llvm@7                                   zydis
+==> Renamed Formulae
+bro -> zeek                kubernetes-helm -> helm    usbmuxd -> libusbmuxd
+jupyter -> jupyterlab      presto -> prestodb
+==> Deleted Formulae
+aiccu               erlang@17           llvm@4              pound
+ansible@1.9         erlang@19           mariadb@10.0        raine
+ansible@2.0         gmt@4               mysql-connector-c   riak
+bdsup2sub           gmtl                mysql@5.5           ruby@2.0
+cockroach           grib-api            openssl             shocco
+dcal                hana                php@7.1             wine
+
+Error: No available formula with the name "postgressql" 
+==> Searching for a previously deleted formula (in the last month)...
+Warning: homebrew/core is shallow clone. To get complete history run:
+  git -C "$(brew --repo homebrew/core)" fetch --unshallow
+
+Error: No previously deleted formula found.
+==> Searching for similarly named formulae...
+Error: No similarly named formulae found.
+==> Searching taps...
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+~/sdg/unit-3  $ brew services start postgresql
+==> Tapping homebrew/services
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 14 (delta 0), reused 7 (delta 0), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+Tapped 1 command (43 files, 59.2KB).
+Error: Formula `postgresql` is not installed.
+~/sdg/unit-3  $ brew install postgresql pgcli
+==> Installing dependencies for postgresql: openssl@1.1 and readline
+==> Installing postgresql dependency: openssl@1.1
+==> Downloading https://homebrew.bintray.com/bottles/openssl@1.1-1.1.1d.mojave.b
+==> Downloading from https://akamai.bintray.com/10/104ef018b7bb8fcc49f57e5a60359
+######################################################################## 100.0%
+==> Pouring openssl@1.1-1.1.1d.mojave.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because openssl/libressl is provided by macOS so don't link an incompatible version.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1d: 7,983 files, 17.9MB
+==> Installing postgresql dependency: readline
+==> Downloading https://homebrew.bintray.com/bottles/readline-8.0.1.mojave.bottl
+==> Downloading from https://akamai.bintray.com/3c/3c754391e9d243835811d128771ca
+######################################################################## 100.0%
+==> Pouring readline-8.0.1.mojave.bottle.tar.gz
+==> Caveats
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+==> Summary
+🍺  /usr/local/Cellar/readline/8.0.1: 48 files, 1.5MB
+==> Installing postgresql
+==> Downloading https://homebrew.bintray.com/bottles/postgresql-12.1.mojave.bott
+==> Downloading from https://akamai.bintray.com/2e/2e97d7d591916d79f8e8a5ed0023c
+######################################################################## 100.0%
+==> Pouring postgresql-12.1.mojave.bottle.tar.gz
+==> /usr/local/Cellar/postgresql/12.1/bin/initdb --locale=C -E UTF-8 /usr/local/
+==> Caveats
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+==> Summary
+🍺  /usr/local/Cellar/postgresql/12.1: 3,217 files, 37.3MB
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /Users/nkerns/Library/Caches/Homebrew/git--2.23.0_1.mojave.bottle.tar.gz... (17.1MB)
+Removing: /Users/nkerns/Library/Caches/Homebrew/hub--2.12.8.mojave.bottle.tar.gz... (4.6MB)
+Removing: /Users/nkerns/Library/Caches/Homebrew/node--12.12.0.mojave.bottle.tar.gz... (14.8MB)
+Removing: /Users/nkerns/Library/Caches/Homebrew/pcre2--10.33.mojave.bottle.tar.gz... (1.9MB)
+Removing: /Users/nkerns/Library/Caches/Homebrew/yarn--1.19.1.tar.gz... (1.2MB)
+Removing: /Users/nkerns/Library/Logs/Homebrew/icu4c... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/trash... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/yarn... (100B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/pcre2... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/hub... (64B)
+Removing: /Users/nkerns/Library/Logs/Homebrew/git... (64B)
+Pruned 1 symbolic links and 2 directories from /usr/local
+==> Installing dependencies for pgcli: libpq, gdbm, sqlite, xz and python
+==> Installing pgcli dependency: libpq
+==> Downloading https://homebrew.bintray.com/bottles/libpq-12.1.mojave.bottle.ta
+==> Downloading from https://akamai.bintray.com/ce/ced57c972519a98fb97dd178a6415
+######################################################################## 100.0%
+==> Pouring libpq-12.1.mojave.bottle.tar.gz
+==> Caveats
+libpq is keg-only, which means it was not symlinked into /usr/local,
+because conflicts with postgres formula.
+
+If you need to have libpq first in your PATH run:
+  echo 'export PATH="/usr/local/opt/libpq/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find libpq you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libpq/lib"
+  export CPPFLAGS="-I/usr/local/opt/libpq/include"
+
+==> Summary
+🍺  /usr/local/Cellar/libpq/12.1: 2,235 files, 23.1MB
+==> Installing pgcli dependency: gdbm
+==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.18.1.mojave.bottle.1
+######################################################################## 100.0%
+==> Pouring gdbm-1.18.1.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.18.1: 20 files, 586.8KB
+==> Installing pgcli dependency: sqlite
+==> Downloading https://homebrew.bintray.com/bottles/sqlite-3.30.1.mojave.bottle
+==> Downloading from https://akamai.bintray.com/5e/5e6fef2d754e0e4009d502c40ad18
+######################################################################## 100.0%
+==> Pouring sqlite-3.30.1.mojave.bottle.tar.gz
+==> Caveats
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides an older sqlite3.
+
+If you need to have sqlite first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.30.1: 11 files, 3.9MB
+==> Installing pgcli dependency: xz
+==> Downloading https://homebrew.bintray.com/bottles/xz-5.2.4.mojave.bottle.tar.
+==> Downloading from https://akamai.bintray.com/01/010667293df282c8bceede3bcd369
+######################################################################## 100.0%
+==> Pouring xz-5.2.4.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.4: 92 files, 1MB
+==> Installing pgcli dependency: python
+==> Downloading https://homebrew.bintray.com/bottles/python-3.7.5.mojave.bottle.
+==> Downloading from https://akamai.bintray.com/bc/bcbdc3612a10d06facca7ec949926
+######################################################################## 100.0%
+==> Pouring python-3.7.5.mojave.bottle.tar.gz
+==> /usr/local/Cellar/python/3.7.5/bin/python3 -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/3.7.5/bin/python3 -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/3.7.5/bin/python3 -s setup.py --no-user-cfg install
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python/3.7.5: 3,972 files, 60.7MB
+==> Installing pgcli
+==> Downloading https://homebrew.bintray.com/bottles/pgcli-2.1.1_2.mojave.bottle
+==> Downloading from https://akamai.bintray.com/a3/a3e952246b681e08a6eb7303e223e
+######################################################################## 100.0%
+==> Pouring pgcli-2.1.1_2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pgcli/2.1.1_2: 1,115 files, 11.8MB
+==> Caveats
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because openssl/libressl is provided by macOS so don't link an incompatible version.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> readline
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+==> postgresql
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+==> libpq
+libpq is keg-only, which means it was not symlinked into /usr/local,
+because conflicts with postgres formula.
+
+If you need to have libpq first in your PATH run:
+  echo 'export PATH="/usr/local/opt/libpq/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find libpq you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libpq/lib"
+  export CPPFLAGS="-I/usr/local/opt/libpq/include"
+
+==> sqlite
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides an older sqlite3.
+
+If you need to have sqlite first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+==> python
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+~/sdg/unit-3  $ brew services start postgresql
+==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
+~/sdg/unit-3  $ \dt
+-bash: dt: command not found
+~/sdg/unit-3  $ /dt
+-bash: /dt: No such file or directory
+~/sdg/unit-3  $ \dt
+-bash: dt: command not found
+~/sdg/unit-3  $ cd ..
+~/sdg  $ cd ..
+~  $ \dt
+-bash: dt: command not found
+~  $ brew install postgresql pgcli
+Warning: postgresql 12.1 is already installed and up-to-date
+To reinstall 12.1, run `brew reinstall postgresql`
+Warning: pgcli 2.1.1_2 is already installed and up-to-date
+To reinstall 2.1.1_2, run `brew reinstall pgcli`
+~  $ brew reinstall pgcli
+==> Reinstalling pgcli 
+==> Downloading https://homebrew.bintray.com/bottles/pgcli-2.1.1_2.mojave.bottle
+Already downloaded: /Users/nkerns/Library/Caches/Homebrew/downloads/9edfa530d0261a0b2dcdee36caa08c602e8815f3dc700f3848146fd55b900695--pgcli-2.1.1_2.mojave.bottle.tar.gz
+==> Pouring pgcli-2.1.1_2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pgcli/2.1.1_2: 1,115 files, 11.8MB
+~  $ brew services start postgresql
+Service `postgresql` already started, use `brew services restart postgresql` to restart.
+~  $ brew services restart postgresql
+Stopping `postgresql`... (might take a while)
+==> Successfully stopped `postgresql` (label: homebrew.mxcl.postgresql)
+==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
+~  $ clear
+
+~  $ createdb company_database
+~  $ pgcli company_database
+Exception in thread completion_refresh:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 65, in _bg_refresh
+    refresher(completer, executor)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 109, in refresh_tables
+    completer.extend_columns(executor.table_columns(), kind="tables")
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgcompleter.py", line 218, in extend_columns
+    for schema, relname, colname, datatype, has_default, default in column_data:
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 591, in table_columns
+    for row in self._columns(kinds=["r"]):
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 586, in _columns
+    cur.execute(sql)
+psycopg2.errors.UndefinedColumn: column def.adsrc does not exist
+LINE 7:                         def.adsrc as default
+                                ^
+
+
+Server: PostgreSQL 12.1
+Version: 2.1.1
+Chat: https://gitter.im/dbcli/pgcli
+Mail: https://groups.google.com/forum/#!forum/pgcli
+Home: http://pgcli.com
+nkerns@/tmp:company_database> \dt                                               
++----------+--------+--------+---------+
+| Schema   | Name   | Type   | Owner   |
+|----------+--------+--------+---------|
++----------+--------+--------+---------+
+SELECT 0
+Time: 0.016s
+nkerns@/tmp:company_database> CREAte T                                          
+syntax error at or near "T"
+LINE 1: CREAte T
+               ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> CREATE TABLE employees                            
+syntax error at end of input
+LINE 1: CREATE TABLE employees
+                              ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> CREATE TABLE employees;                           
+syntax error at end of input
+LINE 1: CREATE TABLE employees
+                              ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> CREATE TABLE employees (full_name TEXT, salary INT
+ , job_position TEXT, phone_extension INT, part_time BOOLEAN);                  
+CREATE TABLE
+Time: 0.047s
+nkerns@/tmp:company_database> Exception in thread completion_refresh:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner                               
+    self.run()mpletion: ON  [F3] Multiline: OFF  [F4] Emacs-mode     Refreshing 
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 65, in _bg_refresh
+    refresher(completer, executor)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 109, in refresh_tables
+    completer.extend_columns(executor.table_columns(), kind="tables")
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgcompleter.py", line 218, in extend_columns
+    for schema, relname, colname, datatype, has_default, default in column_data:
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 591, in table_columns
+    for row in self._columns(kinds=["r"]):
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 586, in _columns
+    cur.execute(sql)
+psycopg2.errors.UndefinedColumn: column def.adsrc does not exist
+LINE 7:                         def.adsrc as default
+                                ^
+
+
+nkerns@/tmp:company_database> \dt                                               
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.015s
+nkerns@/tmp:company_database> ALTER TABLE employees ADD COLUMN id SERIAL PRIMARY
+  KEY;                                                                          
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+ALTER TABLE
+Time: 0.011s
+nkerns@/tmp:company_database> Exception in thread completion_refresh:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner                               
+    self.run()mpletion: ON  [F3] Multiline: OFF  [F4] Emacs-mode     Refreshing 
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 65, in _bg_refresh
+    refresher(completer, executor)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 109, in refresh_tables
+    completer.extend_columns(executor.table_columns(), kind="tables")
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgcompleter.py", line 218, in extend_columns
+    for schema, relname, colname, datatype, has_default, default in column_data:
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 591, in table_columns
+    for row in self._columns(kinds=["r"]):
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 586, in _columns
+    cur.execute(sql)
+psycopg2.errors.UndefinedColumn: column def.adsrc does not exist
+LINE 7:                         def.adsrc as default
+                                ^
+
+
+nkerns@/tmp:company_database> /dl                                               
+syntax error at or near "/"
+LINE 1: /dl
+        ^
+
+Time: 0.042s
+nkerns@/tmp:company_database> /dt                                               
+syntax error at or near "/"
+LINE 1: /dt
+        ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> \dt                                               
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.014s
+nkerns@/tmp:company_database> \d                                                
++----------+------------------+----------+---------+
+| Schema   | Name             | Type     | Owner   |
+|----------+------------------+----------+---------|
+| public   | employees        | table    | nkerns  |
+| public   | employees_id_seq | sequence | nkerns  |
++----------+------------------+----------+---------+
+SELECT 2
+Time: 0.015s
+nkerns@/tmp:company_database> \d                                                
++----------+------------------+----------+---------+
+| Schema   | Name             | Type     | Owner   |
+|----------+------------------+----------+---------|
+| public   | employees        | table    | nkerns  |
+| public   | employees_id_seq | sequence | nkerns  |
++----------+------------------+----------+---------+
+SELECT 2
+Time: 0.015s
+nkerns@/tmp:company_database> \d employees                                      
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.002s
+nkerns@/tmp:company_database> \d employees                                      
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> ALTER TABLE employees ADD COLUMN full_name TEXT, s
+ alary INT, job_position TEXT, phone_extension INT, part_time BOOLEAN;          
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+syntax error at or near "salary"
+LINE 1: ALTER TABLE employees ADD COLUMN full_name TEXT, salary INT,...
+                                                         ^
+
+Time: 0.008s
+nkerns@/tmp:company_database> ALTER TABLE employees ADD COLUMN full_name TEXT   
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+column "full_name" of relation "employees" already exists
+
+Time: 0.002s
+nkerns@/tmp:company_database> /d employees                                      
+syntax error at or near "/"
+LINE 1: /d employees
+        ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> \d employees                                      
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> ALTER TABLE employees ADD COLUMN salary INT       
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+column "salary" of relation "employees" already exists
+
+Time: 0.001s
+nkerns@/tmp:company_database> INSERT  INTO employess (full_name, salary, job_pos
+ ition, phone_extension, part_time) VALUES ('Bob Smith', 45000, 'Network Admin',
+  123, False)                                                                   
+relation "employess" does not exist
+LINE 1: INSERT  INTO employess (full_name, salary, job_position, pho...
+                     ^
+
+Time: 0.002s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_time, salary, job_pos
+ ition, phone_extension, part_time) VALUES ('Bob Smith', 45000, 'Netowrk Admin',
+  123, False)                                                                   
+column "full_time" of relation "employees" does not exist
+LINE 1: INSERT  INTO employees (full_time, salary, job_position, pho...
+                                ^
+
+Time: 0.002s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_time, salary, job_pos
+ ition, phone_extension, part_time) VALUES ('Bob Smith', 45000, 'Netowrk Admin',
+  123, False);                                                                  
+column "full_time" of relation "employees" does not exist
+LINE 1: INSERT  INTO employees (full_time, salary, job_position, pho...
+                                ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> \d employees                                      
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> DELETE FROM employees                             
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+DELETE 0
+Time: 0.007s
+nkerns@/tmp:company_database> \dt                                               
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.015s
+nkerns@/tmp:company_database> \d employees                                      
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> DEL                                               
+syntax error at or near "DEL"
+LINE 1: DEL
+        ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> DELETE FROM employees TABLE *                     
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+syntax error at or near "TABLE"
+LINE 1: DELETE FROM employees TABLE *
+                              ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> \dt                                               
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.014s
+nkerns@/tmp:company_database> DELETE FROM employees                             
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+DELETE 0
+Time: 0.001s
+nkerns@/tmp:company_database> \dt                                               
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.014s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                         
++-------------+----------+----------------+-------------------+-------------+------+
+| full_name   | salary   | job_position   | phone_extension   | part_time   | id   |
+|-------------+----------+----------------+-------------------+-------------+------|
++-------------+----------+----------------+-------------------+-------------+------+
+SELECT 0
+Time: 0.012s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_time, salary, job_position, phone_extension, part_time) VALUES ('Bob Smith', 45000, 'Netowrk Admin', 123, False);                                                                  
+column "full_time" of relation "employees" does not exist
+LINE 1: INSERT  INTO employees (full_time, salary, job_position, pho...
+                                ^
+
+Time: 0.002s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Bob Smith', 45000, 'Netowrk Admin', 123, False);                                                                  
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                         
++-------------+----------+----------------+-------------------+-------------+------+
+| full_name   | salary   | job_position   | phone_extension   | part_time   | id   |
+|-------------+----------+----------------+-------------------+-------------+------|
+| Bob Smith   | 45000    | Netowrk Admin  | 123               | False       | 1    |
++-------------+----------+----------------+-------------------+-------------+------+
+SELECT 1
+Time: 0.014s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Jill Jones', 55000, 'Database Admin', 113, False);                                                              
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Sam Baker', 115000, 'CFO', 102, False);                                                                         
+INSERT 0 1
+Time: 0.114s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Nikki Kerns', 120000, 'CEO', 100, False);                                                                       
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Thomas James', 30000, 'Director of First Impressions', 150, False);                                             
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> \d employees                                                                                                                                                                                                  
+column c.relhasoids does not exist
+LINE 2: ...                 c.relhasrules, c.relhastriggers, c.relhasoi...
+                                                             ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> \dt                                                                                                                                                                                                           
++----------+-----------+--------+---------+
+| Schema   | Name      | Type   | Owner   |
+|----------+-----------+--------+---------|
+| public   | employees | table  | nkerns  |
++----------+-----------+--------+---------+
+SELECT 1
+Time: 0.014s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Bob Smith    | 45000    | Netowrk Admin                 | 123               | False       | 1    |
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 5
+Time: 0.016s
+nkerns@/tmp:company_database> SELECT full_name, phone_extension FROM employees WHERE part_time = False                                                                                                                                      
++--------------+-------------------+
+| full_name    | phone_extension   |
+|--------------+-------------------|
+| Bob Smith    | 123               |
+| Jill Jones   | 113               |
+| Sam Baker    | 102               |
+| Nikki Kerns  | 100               |
+| Thomas James | 150               |
++--------------+-------------------+
+SELECT 5
+Time: 0.012s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Jim Cook', 450, 'Software Developer', 120, true);                                                               
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> se                                                                                                                                                                                                            
+syntax error at or near "se"
+LINE 1: se
+        ^
+
+Time: 0.001s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Bob Smith    | 45000    | Netowrk Admin                 | 123               | False       | 1    |
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | True        | 6    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 6
+Time: 0.015s
+nkerns@/tmp:company_database> UPDATE employees SET salary = 500 WHERE job-position = 'cook'                                                                                                                                                 
+column "job" does not exist
+LINE 1: UPDATE employees SET salary = 500 WHERE job-position = 'cook...
+                                                ^
+
+Time: 0.045s
+nkerns@/tmp:company_database> UPDATE employees SET salary = 500 WHERE job_position = 'cook'                                                                                                                                                 
+UPDATE 0
+Time: 0.001s
+nkerns@/tmp:company_database> UPDATE employees SET job_position = 'cook' WHERE full_name = 'Bob Smith'                                                                                                                                      
+UPDATE 1
+Time: 0.041s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | True        | 6    |
+| Bob Smith    | 45000    | cook                          | 123               | False       | 1    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 6
+Time: 0.016s
+nkerns@/tmp:company_database> UPDATE employees SET salary = 500 WHERE job_position = 'cook'                                                                                                                                                 
+UPDATE 1
+Time: 0.122s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | True        | 6    |
+| Bob Smith    | 500      | cook                          | 123               | False       | 1    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 6
+Time: 0.014s
+nkerns@/tmp:company_database> INSERT  INTO employees (full_name, salary, job_position, phone_extension, part_time) VALUES ('Lazy Lynn', 450, 'Software Developer', 140, true);                                                              
+INSERT 0 1
+Time: 0.042s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | True        | 6    |
+| Bob Smith    | 500      | cook                          | 123               | False       | 1    |
+| Lazy Lynn    | 450      | Software Developer            | 140               | True        | 7    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 7
+Time: 0.013s
+nkerns@/tmp:company_database> DELETE FROM employees WHERE full_name = 'Lazy Lynn'                                                                                                                                                           
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+DELETE 1
+Time: 0.007s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | True        | 6    |
+| Bob Smith    | 500      | cook                          | 123               | False       | 1    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 6
+Time: 0.013s
+nkerns@/tmp:company_database> UPDATE employees SET part_time = false;                                                                                                                                                                       
+UPDATE 6
+Time: 0.041s
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   |
+|--------------+----------+-------------------------------+-------------------+-------------+------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    |
+| Jim Cook     | 450      | Software Developer            | 120               | False       | 6    |
+| Bob Smith    | 500      | cook                          | 123               | False       | 1    |
++--------------+----------+-------------------------------+-------------------+-------------+------+
+SELECT 6
+Time: 0.014s
+nkerns@/tmp:company_database> ALTER TABLE employees ADD COLUMN parking_spot_number VARCHAR(10)                                                                                                                                              
+You're about to run a destructive command.
+Do you want to proceed? (y/n): y
+Your call!
+ALTER TABLE
+Time: 0.006s
+nkerns@/tmp:company_database> Exception in thread completion_refresh:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()                                                                                                                                                                                                                              
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 870, in run                                                                                                                        
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 65, in _bg_refresh
+    refresher(completer, executor)
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/completion_refresher.py", line 109, in refresh_tables
+    completer.extend_columns(executor.table_columns(), kind="tables")
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgcompleter.py", line 218, in extend_columns
+    for schema, relname, colname, datatype, has_default, default in column_data:
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 591, in table_columns
+    for row in self._columns(kinds=["r"]):
+  File "/usr/local/Cellar/pgcli/2.1.1_2/libexec/lib/python3.7/site-packages/pgcli/pgexecute.py", line 586, in _columns
+    cur.execute(sql)
+psycopg2.errors.UndefinedColumn: column def.adsrc does not exist
+LINE 7:                         def.adsrc as default
+                                ^
+
+
+nkerns@/tmp:company_database> select * from employees                                                                                                                                                                                       
++--------------+----------+-------------------------------+-------------------+-------------+------+-----------------------+
+| full_name    | salary   | job_position                  | phone_extension   | part_time   | id   | parking_spot_number   |
+|--------------+----------+-------------------------------+-------------------+-------------+------+-----------------------|
+| Jill Jones   | 55000    | Database Admin                | 113               | False       | 2    | <null>                |
+| Sam Baker    | 115000   | CFO                           | 102               | False       | 3    | <null>                |
+| Nikki Kerns  | 120000   | CEO                           | 100               | False       | 4    | <null>                |
+| Thomas James | 30000    | Director of First Impressions | 150               | False       | 5    | <null>                |
+| Jim Cook     | 450      | Software Developer            | 120               | False       | 6    | <null>                |
+| Bob Smith    | 500      | cook                          | 123               | False       | 1    | <null>                |
++--------------+----------+-------------------------------+-------------------+-------------+------+-----------------------+
+SELECT 6
+Time: 0.016s
+nkerns@/tmp:company_database>  
+
+
+                                                                                                                                                                                                                                            
+ [F2] Smart Completion: ON  [F3] Multiline: OFF  [F4] Emacs-mode                                                                                                                                                                            
